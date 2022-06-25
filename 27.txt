@@ -1,0 +1,14 @@
+Given the code fragment:
+
+var pool = Executors.newFixedThreadPool(5);
+Future outcome = pool.submit(() −> 1);
+
+Which type of lambda expression is passed into submit()?
+
+--options--
+A.| java.lang.Runnable
+B.| java.util.function.Predicate
+C.| java.util.function.Function
+*D.| java.util.concurrent.Callable
+--objective--
+Multitarea

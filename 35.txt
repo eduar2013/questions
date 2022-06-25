@@ -1,0 +1,35 @@
+Given the following classes:
+
+public class TestException extends RuntimeException {}
+
+public class Test{
+	public static void main(String[] args){
+		try{
+			myMethod();
+		}
+		catch(TestException ex){
+			System.out.print("A");
+		}
+	}
+	
+	public static void myMethod(){ //line 1
+		try{
+			throw (Math.random()>0.5)?new TestException():
+			new RuntimeException();
+		}
+		catch(RuntimeException ex){
+			System.out.print("B");
+		}
+	}
+}
+
+What is the result?
+
+--options--
+A.|A
+*B.|B
+C.|Either A or B
+D.|AB
+E.|Compilation fails at line 1
+--objective--
+Exception Handling: Create and use custom exceptions

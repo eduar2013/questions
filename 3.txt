@@ -1,0 +1,27 @@
+Given the code fragment:
+3. public static void main(String [] args){
+4.  int ivar=100;
+5.  float fvar=23.4f;
+6.  double dvar=20;
+7.  ivar=fvar;
+8.  fvar=ivar;
+9.  dvar=fvar;
+10. fvar=dvar;
+11. dvar=ivar;
+12. ivar=dvar;
+13. }
+
+Which three lines fails to compile?
+--options--
+*A.| Line 7
+B.| Line 8
+C.| Line 9
+*D.| Line 10
+E.| Line 11 
+*F.| Line 12
+--objective--
+Working with Java data types: Use primitives and wrapper classes, including, operators, parentheses, type promotion and casting
+--topic--
+1-Java data types
+--number--
+3

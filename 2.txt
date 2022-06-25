@@ -1,0 +1,31 @@
+Given:
+
+public class Main{
+	public static void main(String[] arg){
+		try(BufferedReader in = new BufferedReader(new InputStreamReader(System.in))){
+			System.out.print("Input: ");
+			String input = in.readLine();
+			System.out.println("Echo: "+input);
+		}catch(IOException e){
+			e.printStackTrace();
+		}
+	}
+}
+
+And the command:
+
+	java Main Helloworld
+	
+What is the result ?
+
+--options--
+A.| Input:|   Echo:
+B.| Input: Helloworld|   Echo: Helloworld 
+*C.| Input:|   Then block until any input comes from System.in
+D.| Input:|   Echo: Helloworld
+--objective--
+Java I/O API : Read and write console and file data using I/O Streams
+--topic--
+1-Java data types
+--number--
+2

@@ -1,0 +1,9 @@
+Which of the following interface definitions can use Lambda expressions?
+--options--
+A.||interface A{|}
+B.||interface A {|default void m(){}|}
+C.||interface A{|void m(){}|}
+*D.||interface A{|default void m(){}|void m2();|}
+E.||interface A{|void m1();|void m2();|}
+--objective--
+Java Object-Oriented Approach:Implement functional interfaces using lambda expressions, including interfaces from the java.util.function package

@@ -1,0 +1,28 @@
+Which statement about the following class is correct?
+
+package mypg;
+import java.util.*;
+public class ThreadSafeList {
+	private List<Integer> data = new ArrayList<>();
+	public synchronized void addValue(int value) {
+		data.add(value);
+	}
+	
+	public int getValue(int index) {
+		return data.get(index);
+	}
+
+	public int size() {
+		synchronized(ThreadSafeList.class) {
+		return data.size();
+		}
+	}
+}
+
+--options--
+A.| The code compiles and is thread-safe.
+*B.| The code compiles and is not thread-safe.
+C.| The code does not compile because of the size() method.
+D.| The code does not compile because of the getValue() method.
+--objective--
+Multithread

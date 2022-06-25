@@ -1,0 +1,24 @@
+What will be the result of attempting to compile and run the following code?
+public class PromotionTest{
+ public static void main(String args[]){
+ int i = 5;
+ var f = 5.5f;
+ double d = 3.8;
+ var c = 'a';
+ if (i == f) c++;
+ if (((int) (f + d)) == ((int) f + (int) d)) c += 2;
+ System.out.println(c);
+ }
+}
+--options--
+A.| The code will fail to compile.
+B.| It will print d.
+C.| It will print c.
+D.| It will print b
+*E.| It will print a.
+--objective--
+Use primitives and wrapper classes, including, operators, parentheses, type promotion and casting
+--topic--
+1-Java data types
+--number--
+6

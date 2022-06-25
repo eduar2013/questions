@@ -1,0 +1,17 @@
+Given:
+System.out.println("6+3="+2+7);
+System.out.println("6+3="+(2+7));
+
+What is the result?
+
+--options--
+A.| 6+3=27| 6+3=27
+B.| 6+3=2+7| 6+3=9
+C.| 9=9| 9=9
+*D.| 6+3=27| 6+3=9
+--objective--
+Working with Java data types:Use primitives and wrapper classes, including, operators, parentheses, type promotion and casting
+--topic--
+1-Java data types
+--number--
+8

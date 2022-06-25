@@ -1,0 +1,16 @@
+Which of the following compiles with no errors? (choose 4)
+--options--
+A.| int a = 2.7;
+*B.| byte n=(byte) 4546.9;
+*C.| int c=0b110_100;
+D.| double t =_6.4;
+*E.| float g = 23;
+*F.| short k =(short)45L;
+G.| boolean n =(boolean)1;
+H.| char vv=300000;
+--objective--
+Use primitives and wrapper classes, including, operators, parentheses, type promotion and casting
+--topic--
+1-Java data types
+--number--
+4

@@ -1,0 +1,11 @@
+Which of the following code fragments will you use to create an ExecutorService? (choose 2)
+
+--options--
+A.| ExecutorService
+B.| Executor
+*C.| Executors
+*D.| .newSingleThreadExecutor();
+E.| .createSingleThreadExecutor();
+F.| .getSingleThreadExecutor();
+--objective--
+Multitarea

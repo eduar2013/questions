@@ -1,0 +1,15 @@
+What will the following code print?
+
+	var rlock = new ReentrantLock();
+	var f1 = rlock.lock();
+	System.out.print(f1);
+	var f2 = rlock.lock();
+	System.out.println(f2);
+
+--options--
+A.| true true
+B.| true false
+C.| true
+*D.| It will not compile
+--objective--
+Multitarea

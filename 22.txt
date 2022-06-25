@@ -1,0 +1,29 @@
+Given
+class Tarea implements Runnable{
+	@Override
+	public void run() {
+		System.out.print("print ");
+	}
+}
+
+public class Test {
+	public static void main(String[] args) {
+		Thread t1=new Thread(new Tarea());
+		Thread t2=new Thread(new Tarea());
+		t1.start();
+		t1.run(); //line 1
+		t2.start();
+		t1.start(); //line 2
+	}
+}
+	
+Which one is correct?
+
+--options--
+A.| print print print
+B.| print print
+C.| Exception in line 1
+*D.| Exception in line 2
+E.| Compilation fails
+--objective--
+Multitarea

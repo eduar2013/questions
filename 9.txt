@@ -1,0 +1,24 @@
+Given the following:
+1. public class Test {
+2. 	static int i;
+3. 	public static void main (String []args) {
+4. 		int a = 2, b = i+1;
+5. 		if ((a++>++b) && (++a>5)) {
+6. 			a +=b;
+7. 		}
+8.	 }
+9. }
+
+What is the final value of a?
+--options--
+A.| 1
+B.| 2
+*C.| 3
+D.| 4
+E.| 5
+--objective--
+Working with Java data types - Controlling Program Flow
+--topic--
+1-Java data types
+--number--
+9

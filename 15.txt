@@ -1,0 +1,25 @@
+Given the following:
+class Test{
+	public static void main(String args[]){
+		String arg="hello";
+		change(arg);
+		System.out.println(arg);
+	}
+	
+	static void change(String s){
+		s=s+" bye";
+	}
+}
+What is the result?
+
+--options--
+*A.| hello
+B.| hello bye
+C.| compilations fails
+D.| exception
+--objective--
+Handle text using String and StringBuilder classes
+--topic--
+1-Java data types
+--number--
+15

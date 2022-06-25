@@ -1,0 +1,27 @@
+Consider the following code appearing in a file named TestClass.java:
+class Test{ } // 1
+public class TestClass {
+ var v1; // 2
+ public int main(String[] args) { // 3
+ var v2; //4
+ double x=10, double y; // 5
+ System.out.println[]; // 6
+ for(var k=0; k<x; k++){ } //7
+ return 0;
+ }
+}
+Which of the lines are valid? (choose 3)
+--options--
+*A.| //1
+B.| //2
+*C.| //3
+D.| //4
+E.| //5
+F.| //6
+*G.| //7
+--objective--
+Working with Java data types
+--topic--
+1-Java data types
+--number--
+7

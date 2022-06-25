@@ -1,0 +1,10 @@
+Which of the following statements are true?
+
+--options--
+A.| A synchronized method cannot call another synchronized method in its body
+B.| Making a synchronized method recursive will cause a deadlock
+C.| Only non-static member variables are accessible in a synchronized method
+*D.| A synchronized method cannot be executed simultaneously by more than one thread on the same object.
+E.| A synchronized method cannot call a non-synchronized method in its body
+--objective--
+Multitarea

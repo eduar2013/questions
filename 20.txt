@@ -1,0 +1,27 @@
+Given the following:
+public static void main(String[] args){
+	ArrayList lst=new ArrayList();
+	String[] mr;
+	try{
+		while(true){
+			lst.add(new String("cad"));
+		}
+	}
+	catch(RuntimeException ex){
+		System.out.println("Is a RuntimeException");
+	}
+	catch(Exception ex){
+		System.out.println("Is a Exception");
+	}
+	System.out.println("End");
+}
+What is the result?
+
+--options--
+A.| Execution terminates in the first catch statement, and caught a RuntimeException is printed to the console.
+B.| Execution terminates In the second catch statement, and caught an Exception is printed to the console.
+*C.| A runtime error is thrown in the thread "main".
+D.| Execution completes normally, and "End" is printed to the console.
+E.| The code fails to compile because a throws keyword is required.
+--objective--
+Exception Handling: Handle exceptions using try/catch/finally clauses, try-with-resource, and multi-catch statements

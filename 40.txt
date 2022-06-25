@@ -1,0 +1,10 @@
+Choose the three correct lambda expressions
+
+--options--
+*A.| x->++x
+B.| var c->System.out.println(c)
+D.| (int a, b)->a+b
+*E.|()->{return "";}
+*F.| (@NotNull var x)->x.length()
+--objective--
+Java Object-Oriented Approach:Implement functional interfaces using lambda expressions, including interfaces from the java.util.function package
